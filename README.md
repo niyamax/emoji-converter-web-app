@@ -1,6 +1,6 @@
 # Emoji Converter
 
-This is a simple web app that allows you to convert text containing emoji codes (e.g. :smile:) to their corresponding emojis.
+This is a simple web app that allows you to convert text containing emoji codes (e.g. `:smile:`) to their corresponding emojis.
 
 
 
