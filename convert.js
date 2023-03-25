@@ -1,9 +1,10 @@
+const input = document.getElementById("input");
+const regex = /:(\w+):/g;
+
 function convert() {
-  const input = document.getElementById("input").value;
-  const output = document.getElementById("output");
-  const regex = /:(\w+):/g;
-  const result = input.replace(regex, (match, p1) => {
+  const result = input.value.replace(regex, (match, p1) => {
     return emojiMap[p1] || `:${p1}:`;
   });
-  output.innerHTML = result;
+  input.value = result;
 }
+input.addEventListener("input", convert);

@@ -1,6 +1,7 @@
 const emojiMap = {
 "grinning":"😀",
 "smile":"😄",
+"smiley":"😄",
 "laughing":"😆",
 "rofl":"🤣",
 "slightly_smiling_face":"🙂",
